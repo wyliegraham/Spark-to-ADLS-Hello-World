@@ -4,7 +4,7 @@ some really simple code to validate that you can read a .csv from Azure Data Lak
 
 #set the data lake file location:
 
-file_location = "abfss://"<container name>"@"<storage account name>".dfs.core.windows.net/"<filename>""
+file_location = "abfss://"container name"@"storage account name".dfs.core.windows.net/"filename""
 
 #read in the data to dataframe df
 
